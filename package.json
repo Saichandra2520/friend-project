@@ -8,9 +8,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "install-all": "npm install && cd client && npm install",
     "build": "cd client && npm run build",
-    "start": "node server/server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d client/build"
+    "start": "node server/server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -24,7 +22,6 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22",
-    "gh-pages": "^5.0.0"
+    "nodemon": "^2.0.22"
   }
 }
