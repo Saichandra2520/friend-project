@@ -9,12 +9,14 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
+  "start": "node server/server.js",
+  "server": "node server/server.js",
+  "client": "cd client && npm start",
+  "dev": "concurrently \"npm run server\" \"npm run client\"",
+  "install-all": "npm install && cd client && npm install",
+  "build": "cd client && npm run build",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d client/build"
 },
   "devDependencies": {
     "gh-pages": "^4.0.0"
