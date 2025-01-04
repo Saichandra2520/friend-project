@@ -10,7 +10,7 @@
     "build": "cd client && npm run build",
     "start": "node server/server.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d client/build"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
