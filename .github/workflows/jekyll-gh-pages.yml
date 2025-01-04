@@ -48,3 +48,16 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+exclude:
+  - node_modules
+  - client/node_modules
+  - build
+  - dist
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - .gitignore
+  - .eslintrc.js
+  - .env
+  - README.md
+  - client/src
