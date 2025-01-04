@@ -2,7 +2,7 @@
   "name": "friend-connect",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Siddhu054.github.io/friend-project",
+  "homepage": "https://Siddhu054.github.io/friend-connect",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
