@@ -1,7 +1,6 @@
 {
   "name": "friend-connect",
   "version": "1.0.0",
-  "homepage": "https://Siddhu054.github.io/friend-project",
   "scripts": {
     "server": "node server/server.js",
     "client": "cd client && npm start",
